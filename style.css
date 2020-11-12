@@ -45,6 +45,9 @@ main{
     padding: 10px;
     margin-top: 15px;
 }
+.contact li a{
+    color: #1D3557;
+}
 .navcont{
     margin: 20px 0px 0px 25%;
 }
@@ -54,6 +57,9 @@ main{
     color: white;
     font-family: roboto;
     text-align: start;
+}
+.nav li:hover{
+    cursor: pointer;
 }
 .nav li i{
     padding-right: 10px;
@@ -185,4 +191,8 @@ main .intro button i{
     font-family: roboto;
     padding: 5px;
     font-size: 13.2px;
+}
+.stacks p::selection{
+    background: #1D3557;
+    color: white;
 }
