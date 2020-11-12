@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.bio{
+    height: 100vh;
+    background-color: #1D3557;
+    text-align: center;
+    font-family: roboto;
+    line-height: 18px;
+    padding: 5px;
+}
+.name{
+    margin-top: 15px;
+    font-family: roboto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bio img{
+    height: 20%;
+    width: 50%;
+}
+.desc{
+    margin: 10px 10px 0px 10px;
+    color: white;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 23px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact li{
+    list-style-type: none;
+    background-color: white;
+    color: #1D3557;
+    border-radius: 50%;
+    width: 7%;
+    padding: 10px;
+    margin-top: 15px;
+}
+.navcont{
+    margin: 20px 0px 0px 25%;
+}
+.nav li{
+    padding: 10px 0px 10px 0px;
+    list-style-type: none;
+    color: white;
+    font-family: roboto;
+    text-align: start;
+}
+.nav li i{
+    padding-right: 10px;
+}
+.hire{
+    padding: 12px;
+    margin: 10px auto 0px auto;
+    width: 130px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: roboto;
+}
+.hire i {
+    padding-right: 10px;
+}
+.intro{
+    background-color:#fafafa;
+}
+main .intro .name{
+    font-family: roboto;
+    color: black;
+    margin: 50px 0px 0px 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+main .intro .career{
+    font-family: roboto;
+    color: black;
+    margin: 15px 0px 0px 40px;
+    font-size: 18px;
+}
+main .intro .intro-desc{
+    font-family: roboto;
+    color: black;
+    margin: 15px 0px 0px 40px;
+    font-size: 15px;
+}
+main .intro .intro-desc span{
+    color: #345480;
+}
+main .intro .proj{
+    margin: 15px 0px 0px 40px;
+    background-color: #1D3557;
+}
+main .intro .cv{
+    margin: 15px 0px 0px 20px;
+    background-color: #4f4f4f;
+}
+main .intro .cv a{
+    text-decoration: none;
+    color: white;
+}
+main .intro button{
+    font-family: roboto;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+main .intro button i{
+    padding-right: 10px;
+}
+.secpic{
+    width: 30%;
+    float: right;
+    margin-right: 40px;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.intro-grid{
+    display: grid;
+    grid-template-rows: 45vh auto;
+}
+.skills{
+    margin: 20px 40px 0px 40px;
+   
+}
+.do{
+    font-family: roboto;
+    border-left: 5px solid #1D3557;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.exp{
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.exp span{
+    color: #1D3557;
+}
+.stacks{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.csharp img{
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.csharp-fw img{
+    width: 50px;
+}
+.csharp-fw img:first-child{
+    width: 120px;
+}
+.sql img{
+    width: 50px;   
+    margin-left: 20px;
+}
+.sql img:last-child{
+    height: 100px;
+}
+.mongodb img{
+    width: 130px;
+    margin-left: 25px;
+}
+.backend img{
+    width: 50px;
+    margin-left: 20px;
+}
+.backend img:last-child{
+    width: 50px;
+}
+.stacks p{
+    font-family: roboto;
+    padding: 5px;
+    font-size: 13.2px;
+}
