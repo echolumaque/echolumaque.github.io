@@ -44,6 +44,10 @@ main{
     width: 7%;
     padding: 10px;
     margin-top: 15px;
+    transition: all .2s ease-in-out;
+}
+.contact li:hover{
+    transform: scale(1.5);
 }
 .contact li a{
     color: #1D3557;
@@ -57,9 +61,11 @@ main{
     color: white;
     font-family: roboto;
     text-align: start;
+    transition: all .2s ease-in-out;
 }
 .nav li:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 .nav li i{
     padding-right: 10px;
