@@ -7,7 +7,7 @@ main{
     grid-template-columns: 20% 80%;
 }
 .bio{
-    height: 100vh;
+    height: 100%;
     background-color: #1D3557;
     text-align: center;
     font-family: roboto;
@@ -63,6 +63,10 @@ main{
     text-align: start;
     transition: all .2s ease-in-out;
 }
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
 .nav li:hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -78,6 +82,11 @@ main{
     color: white;
     border: 1px solid white;
     font-family: roboto;
+    transition: all .2s ease-in-out;
+}
+.hire:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .hire i {
     padding-right: 10px;
@@ -110,10 +119,18 @@ main .intro .intro-desc span{
 main .intro .proj{
     margin: 15px 0px 0px 40px;
     background-color: #1D3557;
+    transition: all .2s ease-in-out;
+}
+main .intro .proj:hover{
+    transform: scale(1.1);
 }
 main .intro .cv{
     margin: 15px 0px 0px 20px;
     background-color: #4f4f4f;
+    transition: all .2s ease-in-out;
+}
+main .intro .cv:hover{
+    transform: scale(1.1);
 }
 main .intro .cv a{
     text-decoration: none;
