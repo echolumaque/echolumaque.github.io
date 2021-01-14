@@ -122,10 +122,6 @@ main .intro .proj {
     background-color: #1D3557;
     transition: all .2s ease-in-out;
 }
-main .intro .proj a{
-    text-decoration: none;
-    color: white;
-}
 main .intro .proj:hover{
     transform: scale(1.1);
 }
