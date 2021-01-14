@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumaque's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/8557266d3d.js" crossorigin="anonymous"></script>
+    <script src="fontawesome.js" crossorigin="anonymous"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEkPW2FvIOxiUJoPutYpbfrFW-CLWjI0g&callback=myMap">
+    </script>
+    <script src="maps.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 
@@ -17,21 +20,31 @@
             <img src="firstpic.png" alt="Lumaque Jhericoh">
             <p class="desc">Hi, my name is Jhericoh Lumaque. I'm a Xamarin Mobile Applications Developer.</p>
             <ul class="contact">
-                <li><a href="https://www.facebook.com/TataEchooo" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.facebook.com/TataEchooo" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
                 <li><a href="https://twitter.com/tataechooo" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/jxnquill_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/echo-lumaque/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/jxnquill_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/echo-lumaque/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="https://github.com/echolumaque/" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
             <div class="navcont">
                 <ul class="nav">
-                    <li><a href="index.html" target="_blank"><i class="fas fa-user"></i>About Me</a></li>
-                    <li><i class="fas fa-laptop-code"></i>Projects</li>
-                    <li><a href="Lumaque Jhericoh Janquill's Resume.pdf" target="_blank"><i class="fas fa-file-alt"></i> Curriculum Vitae</a></li>
-                    <li><a href="mailto:jjnlumaque@iskolarngbayan.pup.edu.ph" target="_blank"><i class="far fa-envelope"></i>Contact</a></li>
+                    <li><a href="index.html"><i class="fas fa-user"></i>About Me</a></li>
+                    <li><a href="https://appcenter.ms/users/EchoLumaque/apps/" target="_blank"><i
+                                class="fas fa-laptop-code"></i>Projects</a></li>
+                    <li><a href="Lumaque Jhericoh Janquill's Resume.pdf" target="_blank"><i class="fas fa-file-alt"></i>
+                            Curriculum Vitae</a></li>
+                    <li><a href="mailto:jjnlumaque@iskolarngbayan.pup.edu.ph"><i class="far fa-envelope"></i>Contact</a>
+                    </li>
+                    <li><a href="interests.html"><i class="fas fa-desktop"></i>Interests</a></li>
+                    <li><a href="music.html"><i class="fas fa-music"></i>Favorite Song</a></li>
+                    <li><a href="maps.html"><i class="fad fa-map"></i>NCR Map</a></li>
                 </ul>
             </div>
-            <button class="hire" onclick="location.href='mailto:jjnlumaque@iskolarngbayan.pup.edu.ph'" target="_blank"><i class="far fa-paper-plane"></i> Hire Me</button>
+            <button class="hire" onclick="location.href='mailto:jjnlumaque@iskolarngbayan.pup.edu.ph'"
+                target="_blank"><i class="far fa-paper-plane"></i> Hire Me</button>
         </div>
         <div class="intro-grid">
             <div class="intro">
@@ -41,44 +54,64 @@
                 <p class="intro-desc"><span>Full stack mobile applications developer</span> that especializes in
                     <span>C#
                         .NET and Xamarin</span>. Sophomore currently taking Diploma in Information and Communications
-                    Technology from Polytechnic University of the Philippines' <span>Institute of Technology</span>.</p>
-                <button class="proj"><i class="fas fa-arrow-circle-right"></i> View Projects</button>
-                <button class="cv"><a href="Lumaque Jhericoh Janquill's Resume.pdf" target="_blank"><i class="fas fa-file-alt"></i> View Curriculum Vitae</a></button>
+                    Technology from Polytechnic University of the Philippines' <span>Institute of Technology</span>.
+                    Currently studying Web Development to enhance my software's "reach" in the future.
+                </p>
+                <button class="proj"><a href="https://appcenter.ms/EchoLumaque/apps"><i
+                            class="fas fa-arrow-circle-right"></i> View Projects</a></button>
+                <button class="cv"><a href="Lumaque Jhericoh Janquill's Resume.pdf" target="_blank"><i
+                            class="fas fa-file-alt"></i> View Curriculum Vitae</a></button>
             </div>
             <div class="skills">
                 <p class="do">What I do</p>
-                <p class="exp">I have more than 1 year experience building software for students and clients from the Philippines. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out mroe about my experience? Check out my <span>online curriculum vitae</span> and <span>project portfilio.</span></p>
+                <p class="exp">I have more than 1 year experience building software for students and clients from the
+                    Philippines. Below is a quick overview of my main technical skill sets and technologies I use. Want
+                    to find out mroe about my experience? Check out my <span>online curriculum vitae</span> and
+                    <span>project portfilio.</span></p>
                 <div class="stacks">
                     <div class="csharp">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/1200px-C_Sharp_logo.svg.png" alt="C#">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/1200px-C_Sharp_logo.svg.png"
+                            alt="C#">
                         <p>More than 1 year experience of developing C# applicaions using C#'s frameworks.</p>
                     </div>
                     <div class="csharp-fw">
                         <img src="wforms.png" alt="Winforms">
-                        <img src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1502742226/p7opycvzczgkbqtdeue4.png" alt="xamarin">
-                        <p>Freelance developer using .NET WinForms for desktop applications, and Xamarin for mobile development</p>
+                        <img src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1502742226/p7opycvzczgkbqtdeue4.png"
+                            alt="xamarin">
+                        <p>Freelance developer using .NET WinForms for desktop applications, and Xamarin for mobile
+                            development</p>
                     </div>
                     <div class="sql">
-                        <img src="https://e7.pngegg.com/pngimages/170/924/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo.png" alt="SQL">
+                        <img src="https://e7.pngegg.com/pngimages/170/924/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo.png"
+                            alt="SQL">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite">
                         <p>Integrated SQL databases for my applications and projects for data-driven applications.</p>
                         <p>Integrated SQLite for lightweight local database for Xamarin projects.</p>
                     </div>
                     <div class="mongodb">
                         <img src="MongoDB-Logo.png" alt="MongoDB">
-                        <p>Implemented MongoDB for large datasets that is required to store data for my projects and applications.</p>
-                        <p>Implemented in COVID 19 tracker contact tracing feature and storage of scores and students in my LMS mobile applications.</p>
+                        <p>Implemented MongoDB for large datasets that is required to store data for my projects and
+                            applications.</p>
+                        <p>Implemented in COVID 19 tracker contact tracing feature and storage of scores and students in
+                            my LMS mobile applications.</p>
                     </div>
                     <div class="backend">
-                        <img src="https://pbs.twimg.com/profile_images/1018995854181576704/E-nYFL4k_400x400.jpg" alt="MS App Center">
+                        <img src="https://pbs.twimg.com/profile_images/1018995854181576704/E-nYFL4k_400x400.jpg"
+                            alt="MS App Center">
                         <img src="https://img.icons8.com/color/452/google-firebase-console.png" alt="Firebase">
-                        <p>Implemented the use of MS App Center for small-scale applications to track the usage, crashes of my applications, and to push updates.</p>
-                        <p>Implemented Firebase for large scale applications that requires a powerful back-end services.</p>
+                        <p>Implemented the use of MS App Center for small-scale applications to track the usage, crashes
+                            of my applications, and to push updates.</p>
+                        <p>Implemented Firebase for large scale applications that requires a powerful back-end services.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
+       
+
     </main>
+   
 </body>
 
 </html>

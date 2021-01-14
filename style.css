@@ -6,6 +6,7 @@ main{
     display: grid;
     grid-template-columns: 20% 80%;
 }
+
 .bio{
     height: 100%;
     background-color: #1D3557;
@@ -121,6 +122,10 @@ main .intro .proj{
     background-color: #1D3557;
     transition: all .2s ease-in-out;
 }
+main .intro .proj a{
+    text-decoration: none;
+    color: white;
+}
 main .intro .proj:hover{
     transform: scale(1.1);
 }
@@ -144,6 +149,10 @@ main .intro button{
 }
 main .intro button i{
     padding-right: 10px;
+}
+.skills img:hover{
+    transform: scale(1.);
+    transition: all .2s ease-in-out;
 }
 .secpic{
     width: 30%;
@@ -219,3 +228,6 @@ main .intro button i{
     background: #1D3557;
     color: white;
 }
+
+/*maps css*/
+
