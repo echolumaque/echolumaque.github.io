@@ -1,20 +1,20 @@
-.BornHS__Wrapper {
+.maps__Wrapper {
     position: relative;
 }
-.BornHS__Wrapper .BornHS__Close {
+.maps__Wrapper .maps__Close {
     display: none;
 }
-.BornHS__Wrapper .Content__Wrapper {
+.maps__Wrapper .Content__Wrapper {
     position: relative;
 }
-.BornHS__Wrapper .Content__Wrapper img, .BornHS__Wrapper .Content__Wrapper p, .BornHS__Wrapper .Content__Wrapper label{
+.maps__Wrapper .Content__Wrapper img, .maps__Wrapper .Content__Wrapper p, .maps__Wrapper .Content__Wrapper label{
     display: block;
     margin: auto;
 }
-.BornHS__Wrapper .Content__Wrapper img{
+.maps__Wrapper .Content__Wrapper img{
     width: 100%;
 }
-.BornHS__Wrapper .BornHS__Modal__Content {
+.maps__Wrapper .maps__Modal__Content {
     background: #131313;
     border-radius: 5px;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.22);
@@ -26,19 +26,19 @@
     width: 360px;
     z-index: 4;
 }
-.BornHS__Wrapper .BornHS__Modal__Content .Content__Wrapper {
+.maps__Wrapper .maps__Modal__Content .Content__Wrapper {
     padding: 20px;
 }
-.BornHS__Wrapper .BornHS__Modal__Content .Content__Wrapper .BornHS__Title {
+.maps__Wrapper .maps__Modal__Content .Content__Wrapper .maps__Title {
     font-size: 16px;
     text-transform: uppercase;
 }
-.BornHS__Wrapper .BornHS__Modal__Content .Content__Wrapper p {
+.maps__Wrapper .maps__Modal__Content .Content__Wrapper p {
     font-size: 13px;
     margin: 0;
     padding: 0;
 }
-.BornHS__Wrapper .BornHS__Input {
+.maps__Wrapper .maps__Input {
     height: 0;
     opacity: 0;
     overflow: hidden;
@@ -47,7 +47,7 @@
     width: 0;
     z-index: -1;
 }
-.BornHS__Wrapper .BornHS__Input + .BornHS__Label {
+.maps__Wrapper .maps__Input + .maps__Label {
     background: #ec2256;
     border-radius: 50%;
     cursor: pointer;
@@ -58,12 +58,12 @@
     z-index: 2;
 }
 @media (min-width: 768px) {
-    .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
+    .maps__Wrapper .maps__Input + .maps__Label {
         height: 30px;
         width: 30px;
    }
 }
-.BornHS__Wrapper .BornHS__Input + .BornHS__Label:before, .BornHS__Wrapper .BornHS__Input + .BornHS__Label:after {
+.maps__Wrapper .maps__Input + .maps__Label:before, .maps__Wrapper .maps__Input + .maps__Label:after {
     background: #fff;
     content: "";
     cursor: pointer;
@@ -73,15 +73,15 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.BornHS__Wrapper .BornHS__Input + .BornHS__Label:before {
+.maps__Wrapper .maps__Input + .maps__Label:before {
     height: 2px;
     width: 40%;
 }
-.BornHS__Wrapper .BornHS__Input + .BornHS__Label:after {
+.maps__Wrapper .maps__Input + .maps__Label:after {
     height: 40%;
     width: 2px;
 }
-.BornHS__Wrapper .BornHS__Input ~ .BornHS__Overlay {
+.maps__Wrapper .maps__Input ~ .maps__Overlay {
     display: none;
     height: 100%;
     left: 0;
@@ -90,38 +90,38 @@
     top: 0;
     z-index: 3;
 }
-.BornHS__Wrapper .BornHS__Input:checked + .BornHS__Label {
+.maps__Wrapper .maps__Input:checked + .maps__Label {
     transform: rotate(45deg);
 }
-.BornHS__Wrapper .BornHS__Input:checked ~ .BornHS__Modal__Content {
+.maps__Wrapper .maps__Input:checked ~ .maps__Modal__Content {
     opacity: 1;
     visibility: visible;
 }
-.BornHS__Wrapper .BornHS__Input:checked ~ .BornHS__Overlay {
+.maps__Wrapper .maps__Input:checked ~ .maps__Overlay {
     display: block;
 }
-.BornHS__Wrapper.BornHS__Blur figure {
+.maps__Wrapper.maps__Blur figure {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
 }
-.BornHS__Wrapper.BornHS__Blur .BornHS__Input {
+.maps__Wrapper.maps__Blur .maps__Input {
     display: none;
 }
-.BornHS__Wrapper.BornHS__Blur .BornHS__Input + .BornHS__Label {
+.maps__Wrapper.maps__Blur .maps__Input + .maps__Label {
     opacity: 0.5;
     pointer-events: none;
 }
-.BornHS__Wrapper.BornHS__Blur .BornHS__Input:checked {
+.maps__Wrapper.maps__Blur .maps__Input:checked {
     display: inline-block;
 }
-.BornHS__Wrapper.BornHS__Blur .BornHS__Input:checked + .BornHS__Label {
+.maps__Wrapper.maps__Blur .maps__Input:checked + .maps__Label {
     opacity: 1;
     pointer-events: auto;
 }
-.BornHS__Modal {
+.maps__Modal {
     bottom: 0;
     height: 100%;
     left: 0;
@@ -132,13 +132,13 @@
     z-index: 1;
 }
 @media (max-width: 768px) {
-    .BornHS__Wrapper .BornHS__Modal__Content {
+    .maps__Wrapper .maps__Modal__Content {
         bottom: auto !important;
         left: 50% !important;
         top: 50% !important;
         transform: translate(-50%, -50%) !important;
    }
-    .BornHS__Wrapper .BornHS__Modal__Content .BornHS__Close {
+    .maps__Wrapper .maps__Modal__Content .maps__Close {
         background: #ec2256;
         border-radius: 50%;
         cursor: pointer;
@@ -152,7 +152,7 @@
         width: 20px;
         z-index: 5;
    }
-    .BornHS__Wrapper .BornHS__Modal__Content .BornHS__Close:before, .BornHS__Wrapper .BornHS__Modal__Content .BornHS__Close:after {
+    .maps__Wrapper .maps__Modal__Content .maps__Close:before, .maps__Wrapper .maps__Modal__Content .maps__Close:after {
         background: #fff;
         content: "";
         cursor: pointer;
@@ -162,11 +162,11 @@
         top: 50%;
         transform: translate(-50%, -50%);
    }
-    .BornHS__Wrapper .BornHS__Modal__Content .BornHS__Close:before {
+    .maps__Wrapper .maps__Modal__Content .maps__Close:before {
         height: 2px;
         width: 40%;
    }
-    .BornHS__Wrapper .BornHS__Modal__Content .BornHS__Close:after {
+    .maps__Wrapper .maps__Modal__Content .maps__Close:after {
         height: 40%;
         width: 2px;
    }
